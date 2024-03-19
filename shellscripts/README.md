@@ -32,3 +32,11 @@ git clone https://github.com/seu-usuario/repo-shell-script.git
 12. `12_userloops.sh`: Continuação de estudos de estrutura de repetição no shell.
 13. `13_while.sh`: Aprofundando nos estudos de estrutura de repetição utilizando o while.
 
+### Automação de servidor web para multiVMs (/remote_websetup)
+
+1. `remhosts`: Arquivo com o nome dos hosts das VMs que serão configuradas
+2. `multios_websetup.sh`: Arquivo de instalação e configuração do servidor web. Este script também checa a distribuição linux da VM, mudando o procedimento de acordo com a distribuição utilizada.
+3. `webdeploy.sh`: Arquivo responsável por fazer a conexão com as VMs, transferir o arquivo de configuração `multios_websetup.sh` para as mesmas e executá-las através de um for loop baseado no `remhosts`.
+
+**OBS**: É importante lembrar que previamente foram inseridas e configuradas nas VMs um usuário chamado devops com permissão **sudoer**. Além de inserir e configurar chaves SSH para efetuar a conexão com sucesso entre as máquinas.
+
