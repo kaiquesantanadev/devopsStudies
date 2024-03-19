@@ -23,6 +23,12 @@ git clone https://github.com/seu-usuario/repo-shell-script.git
 4. `4_args.sh`: Script básico de introdução a argumentos em bash script.
 5.  `5_args_websetup_sh`: Versão customizada do script para criar website (`3_variables_websetup.sh`). Este script leva 2 paramêtros para criar o servidor web: O link de onde está o código à ser instalado, e o nome do arquivo em zip que vai ser extraído do download feito.
 6. `6_command_subs.sh`: Script para estudos de comandos serem embutidos via variáveis no shell.
-7. `7_if1.sh`: Primeiro script para estudo de estruturas de repetições no shell.
-8. `8_if2.sh`: Continuação dos estudos de estrutura de repetição com shell script.
+7. `7_if1.sh`: Primeiro script para estudo de estruturas de condição no shell.
+8. `8_if2.sh`: Continuação dos estudos de estrutura de condição com shell script.
+9. `9_if2.sh`: Continuação dos estudos de estrutura de condição com shell script.
+10. `10_monit.sh`: Primeiro arquivo de monitoração criado. Esse arquivo monitora se o serviço httpd está online.
+    - Além disso, foi criado uma configuração no `crontab -e` para jogar a resposta do arquivo em um arquivo de log de monitoramento.
+11. `11_forloops.sh`: Primeiro arquivo para estudos de estrutura de repetição no shell.
+12. `12_userloops.sh`: Continuação de estudos de estrutura de repetição no shell.
+13. `13_while.sh`: Aprofundando nos estudos de estrutura de repetição utilizando o while.
 
