@@ -4,7 +4,7 @@ TEMPDIR="/tmp/webfiles"
 # Verificação de distribuição de OS
 if [ -f /etc/os-release ]; then
     . /etc/os-release
-    if [ "$ID" == "centos" ] || [ "$ID" == "rhel" ] || ["$ID" == "amzn"]; then
+    if [ "$ID" == "centos" ] || [ "$ID" == "rhel" ] || [ "$ID" == "amzn" ]; then
         echo "Rodando CentOS/RHEL Setup"
         PACKAGES="wget unzip httpd"
         SVC="httpd"
